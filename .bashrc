@@ -1,16 +1,5 @@
 alias ll="ls -lG"
 alias ls="ls -G"
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
-
-alias sshr="ssh -R 52698:127.0.0.1:52698"
-
-source /usr/local/bin/virtualenvwrapper.sh
-
-## #Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-
 
 RED='\[\033[31m\]'
 GREEN='\[\033[32m\]'
