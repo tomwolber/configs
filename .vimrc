@@ -9,7 +9,6 @@ set tabstop=4
 set number
 set nowrap
 
-runtime macros/matchit.vim:w
 filetype plugin on
 
 map <Left> <Nop>
