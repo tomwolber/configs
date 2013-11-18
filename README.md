@@ -27,5 +27,6 @@ Git doesn't really need that much configuration, but there are a few tricks to m
 
 #### Enable Colors
 Enabling colors makes things like `git status` a lot more readable. True story. 
+
     git config --global color.ui true
 
