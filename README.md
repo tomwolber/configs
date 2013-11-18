@@ -22,6 +22,13 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     cd ~/.vim/bundle
     git clone git@github.com:terryma/vim-multiple-cursors.git
 
+**[NERDTree](https://github.com/scrooloose/nerdtree)**
+
+    cd ~/.vim/bundle
+    git clone https://github.com/scrooloose/nerdtree.git
+    
+
+
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
 
