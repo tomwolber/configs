@@ -1,5 +1,6 @@
 alias ll="ls -lG"
 alias ls="ls -G"
+alias runsim="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 
 RED='\[\033[31m\]'
 GREEN='\[\033[32m\]'
