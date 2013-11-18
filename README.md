@@ -1,4 +1,4 @@
-#Bash and Vim Configuration
+#Bash, Vim, and Git Configuration
 Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
 
 ## Pathogen
@@ -21,3 +21,11 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
 
     cd ~/.vim/bundle
     git clone git@github.com:terryma/vim-multiple-cursors.git
+
+## Git Config
+Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
+
+#### Enable Colors
+Enabling colors makes things like `git status` a lot more readable. True story. 
+    git config --global color.ui true
+
