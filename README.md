@@ -27,7 +27,10 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     cd ~/.vim/bundle
     git clone https://github.com/scrooloose/nerdtree.git
     
+**[Stylus.vim](https://github.com/wavded/vim-stylus)**
 
+    cd ~/.vim/bundle
+    git@github.com:wavded/vim-stylus.git 
 
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
