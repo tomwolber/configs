@@ -27,10 +27,10 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     cd ~/.vim/bundle
     git clone https://github.com/scrooloose/nerdtree.git
 
-**[NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
+**[NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)**
 
-  cd ~/.vim/bundle
-  git clone https://github.com/jistr/vim-nerdtree-tabs.git    
+    cd ~/.vim/bundle
+    git clone https://github.com/jistr/vim-nerdtree-tabs.git    
 
 **[Stylus.vim](https://github.com/wavded/vim-stylus)**
 
