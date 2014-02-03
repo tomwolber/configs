@@ -38,7 +38,7 @@ Hopefully you will find these files helpful. Input from others is ***greatly*** 
     curl -Sso ~/.vim/autoload/pathogen.vim \
     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
-The final installation step is to make sure `execute pathogen#infect()` has been added to your .vimrc.` has been added to your .vimrc.
+The final installation step is to make sure `execute pathogen#infect()` has been added to your .vimrc.
 
 Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
 
