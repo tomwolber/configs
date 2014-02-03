@@ -1,5 +1,7 @@
 #iTerm, Bash, Vim, and Git Configuration
 
+Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
+
 ## iTerm Color Scheme
 
 ### Basic Colors
@@ -27,7 +29,6 @@
 | Cyan    | 130, 255, 247 | 183, 255, 249 |
 | White   | 222, 218, 207 | 255, 255, 255 |
 
-Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
 
 ## Pathogen
 
