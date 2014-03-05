@@ -35,6 +35,11 @@ command Wq wq
 command WQ wq
 command Bn bn
 
+"----AIRLINE PLUGIN----"
+let g:airline_powerline_fonts = 1
+let g:airline_section_y = 0
+let g:airline_section_warning = 0
+
 "----MAKE PATHOGEN WORK----"
 execute pathogen#infect()
 
