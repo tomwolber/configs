@@ -1,11 +1,15 @@
-colorscheme slate
 set expandtab smarttab
 set shiftwidth=2
 set tabstop=2
 set number ruler
 set nowrap backspace=indent,eol,start
+set laststatus=2
+set linespace=0
 
+"----COLORS----"
+set t_Co=256
 syntax on
+colorscheme luna
 filetype plugin on
 
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
