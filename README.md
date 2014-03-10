@@ -71,7 +71,7 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     cd ~/.vim/bundle
     git clone https://github.com/bling/vim-airline.git 
 
-(For Airline icons, see also [Source Code Pro for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro)
+(For Airline icons, see also [Source Code Pro for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro))
 
 **[Stylus.vim](https://github.com/wavded/vim-stylus)**
 
