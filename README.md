@@ -78,6 +78,11 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     cd ~/.vim/bundle
     git@github.com:wavded/vim-stylus.git 
 
+**[Vim-gitgutter](https://github.com/wavded/vim-stylus)**
+
+    cd ~/.vim/bundle
+    git clone git://github.com/airblade/vim-gitgutter.git
+
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
 
