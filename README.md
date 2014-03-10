@@ -62,10 +62,12 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     git clone https://github.com/jistr/vim-nerdtree-tabs.git    
 
 **[Vim Fugitive](https://github.com/tpope/vim-fugitive)**
+
     cd ~/.vim/bundle
     git clone git://github.com/tpope/vim-fugitive.git
 
 **[Vim Airline](https://github.com/bling/vim-airline)**
+
     cd ~/.vim/bundle
     git clone https://github.com/bling/vim-airline.git 
 
