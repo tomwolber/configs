@@ -12,8 +12,6 @@ syntax on
 colorscheme luna
 filetype plugin on
 
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
-
 "----PRETTIFY----"
 highlight VertSplit ctermbg=DarkGray ctermfg=DarkGray
 set fillchars=""
