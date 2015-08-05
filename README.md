@@ -59,43 +59,6 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
 - vim-sensible
 - vim-stylus
 
-**[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)**
-
-    cd ~/.vim/bundle
-    git clone git@github.com:terryma/vim-multiple-cursors.git
-
-**[NERDTree](https://github.com/scrooloose/nerdtree)**
-
-    cd ~/.vim/bundle
-    git clone https://github.com/scrooloose/nerdtree.git
-
-**[NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)**
-
-    cd ~/.vim/bundle
-    git clone https://github.com/jistr/vim-nerdtree-tabs.git    
-
-**[Vim Fugitive](https://github.com/tpope/vim-fugitive)**
-
-    cd ~/.vim/bundle
-    git clone git://github.com/tpope/vim-fugitive.git
-
-**[Vim Airline](https://github.com/bling/vim-airline)**
-
-    cd ~/.vim/bundle
-    git clone https://github.com/bling/vim-airline.git 
-
-(For Airline icons, see also [Source Code Pro for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro))
-
-**[Stylus.vim](https://github.com/wavded/vim-stylus)**
-
-    cd ~/.vim/bundle
-    git@github.com:wavded/vim-stylus.git 
-
-**[Vim-gitgutter](https://github.com/wavded/vim-stylus)**
-
-    cd ~/.vim/bundle
-    git clone git://github.com/airblade/vim-gitgutter.git
-
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
 
