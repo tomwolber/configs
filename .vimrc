@@ -5,12 +5,16 @@ set number ruler
 set nowrap backspace=indent,eol,start
 set laststatus=2
 set linespace=0
+set cursorline
+set cursorcolumn
 
 "----COLORS----"
 set t_Co=256
 syntax on
 colorscheme luna
 filetype plugin on
+hi CursorLine ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi CursorColumn ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 
 "----PRETTIFY----"
 highlight VertSplit ctermbg=DarkGray ctermfg=DarkGray
@@ -41,3 +45,4 @@ let g:airline_section_warning = 0
 "----MAKE PATHOGEN WORK----"
 execute pathogen#infect()
 
+set foldmethod=syntax
