@@ -46,6 +46,19 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
     git clone git://github.com/tpope/vim-sensible.git
     
 #### Install Recommended Packages
+
+- mustache
+- nerdtree
+- syntastic
+- vim-airline
+- vim-fugitive
+- vim-gitgutter
+- vim-javascript
+- vim-multiple-cursors
+- vim-nerdtree-tabs
+- vim-sensible
+- vim-stylus
+
 **[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)**
 
     cd ~/.vim/bundle
