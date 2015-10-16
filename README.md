@@ -2,6 +2,8 @@
 
 Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
 
+## ITerm Colors
+
 
 Basic Colors  |               | ANSI Colors |               |             |
 --------------|---------------|-------------|---------------|-------------
