@@ -8,6 +8,7 @@ set linespace=0
 set cursorline
 set cursorcolumn
 set foldmethod=syntax
+set nofoldenable 
 
 "----COLORS----"
 set t_Co=256
