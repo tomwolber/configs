@@ -82,6 +82,12 @@ Enabling colors makes things like `git status` a lot more readable. True story.
 
     git config --global color.ui true
 
+#### Supercharge git grep 
+Git's grep is awesome and ignores .git, which is nice. This command sets all the nice flags and aliases it to `g`, ie `git g 'test'`
+
+    git config --global alias.g "grep --break --heading --line-number"
+
+
 #### Git Autocomplete (for OS X)
 I had been working on Linux VMs for so long that I forgot the autocomplete for Git didn't work out of the box on OS X. Installing this script from Github is an easy no-brainer.
 
