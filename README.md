@@ -72,7 +72,7 @@ This command installs the following packages:
 ### Update Packages
 This command will update all installed packages
 
-    echo $'\n' && echo $'UPDATING PACKAGES' && echo $'\n' && for i in ~/.vim/bundle/*; do basename $i && git -C $i pull && seq  -f "-" -s '' 80 && echo $'\n'; done
+    echo $'\n' && echo $'UPDATING VUNDLE PACKAGES' && echo $'\n' && for i in ~/.vim/bundle/*; do basename $i && git -C $i pull && seq  -f "-" -s '' 80 && echo $'\n'; done
 
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
