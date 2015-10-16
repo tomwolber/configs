@@ -1,8 +1,7 @@
 alias ll="ls -lG"
 alias ls="ls -G"
 
-alias ll="gls --color -h1 --group-directories-first"
-alias runsim="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias ll="gls --color -a -h1 --group-directories-first"
 alias npmi="rm -rf node_modules; npm install"
 
 RED='\[\033[31m\]'
