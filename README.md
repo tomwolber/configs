@@ -2,32 +2,20 @@
 
 Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
 
-## iTerm Color Scheme
 
-### Basic Colors
+Basic Colors  |               | ANSI Colors |               |             |
+--------------|---------------|-------------|---------------|-------------
+**Type**      | **Color**     | **Color**   | **Normal**    | **Bright** 
+Foreground    | 222, 218, 207 | Black       | 0, 0, 0       | 49, 49, 49
+Background    | 23, 23, 23    | Red         | 255, 97, 90   | 245, 140, 128
+Bold          | 255, 255, 255 | Green       | 177, 233, 105 | 221, 248, 143
+Selection     | 69, 59, 57    | Yellow      | 235, 217, 156 | 238, 229, 178
+Selected Text | 182, 187, 192 | Blue        | 93, 169, 246  | 165, 199, 255
+Cursor        | 187, 187, 187 | Magenta     | 232, 106, 255 | 221, 170, 255
+Cursor Text   | 255, 255, 255 | Cyan        | 130, 255, 247 | 183, 255, 249
+              |               | White       | 222, 218, 207 | 255, 255, 255
 
-| Type          | Color         |
-|---------------|:-------------:|
-| Foreground    | 222, 218, 207 |
-| Background    | 23, 23, 23    |
-| Bold          | 255, 255, 255 |
-| Selection     | 69, 59, 57    |
-| Selected Text | 182, 187, 192 |
-| Cursor        | 187, 187, 187 |
-| Cursor Text   | 255, 255, 255 |
 
-### ANSI Colors
-
-| Color   | Normal        | Bright |
-|---------|:-------------:|:-------------:|
-| Black   | 0, 0, 0       | 49, 49, 49    | 
-| Red     | 255, 97, 90   | 245, 140, 128 |
-| Green   | 177, 233, 105 | 221, 248, 143 |
-| Yellow  | 235, 217, 156 | 238, 229, 178 | 
-| Blue    | 93, 169, 246  | 165, 199, 255 |
-| Magenta | 232, 106, 255 | 221, 170, 255 | 
-| Cyan    | 130, 255, 247 | 183, 255, 249 |
-| White   | 222, 218, 207 | 255, 255, 255 |
 
 
 ## Pathogen
