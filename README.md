@@ -2,6 +2,16 @@
 
 Hopefully you will find these files helpful. Input from others is ***greatly*** appreciated. Besides the files in this repo, there are a few extra steps that are needed and explained below. Good luck!
 
+##Download dotfiles
+
+Run this command to download dotfiles to your home directory. Please set your username and password in .gitconfig.
+
+    curl https://raw.githubusercontent.com/tomwolber/configs/master/.gitignore -o ~/.gitignore && \
+    curl https://raw.githubusercontent.com/tomwolber/configs/master/.gitconfig -o ~/.gitconfig && \
+    curl https://raw.githubusercontent.com/tomwolber/configs/master/.bashrc -o ~/.bashrc && \
+    curl https://raw.githubusercontent.com/tomwolber/configs/master/.bash_profile -o ~/.bash_profile && \
+    curl https://raw.githubusercontent.com/tomwolber/configs/master/.vimrc -o ~/.vimrc
+
 ## ITerm Colors
 
 
