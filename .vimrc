@@ -7,6 +7,7 @@ set laststatus=2
 set linespace=0
 set cursorline
 set cursorcolumn
+set foldmethod=syntax
 
 "----COLORS----"
 set t_Co=256
@@ -20,9 +21,6 @@ hi CursorColumn ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 highlight VertSplit ctermbg=DarkGray ctermfg=DarkGray
 set fillchars=""
 hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
-
-"----Commands that start with '\'----"
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 "----DISABLE ARROW KEYS----"
 map <Left> <Nop>
@@ -42,7 +40,11 @@ let g:airline_powerline_fonts = 1
 let g:airline_section_y = 0
 let g:airline_section_warning = 0
 
+"----NERDTREE----"
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 "----MAKE PATHOGEN WORK----"
 execute pathogen#infect()
-
-set foldmethod=syntax
