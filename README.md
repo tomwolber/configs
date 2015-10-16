@@ -40,14 +40,23 @@ Hopefully you will find these files helpful. Input from others is ***greatly*** 
 
 The final installation step is to make sure `execute pathogen#infect()` has been added to your .vimrc.
 
-Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
+## Install Recommended Packages
 
-    cd ~/.vim/bundle
-    git clone git://github.com/tpope/vim-sensible.git
-    
-#### Install Recommended Packages
+    mkdir ~/.vim/bundle && cd ~/.vim/bundle && \
+    git clone https://github.com/mustache/vim-mustache-handlebars.git && \
+    git clone https://github.com/scrooloose/nerdtree.git && \
+    git clone https://github.com/scrooloose/syntastic.git && \
+    git clone https://github.com/bling/vim-airline.git && \
+    git clone https://github.com/tpope/vim-fugitive.git && \
+    git clone https://github.com/airblade/vim-gitgutter.git && \
+    git clone https://github.com/pangloss/vim-javascript.git && \
+    git clone https://github.com/terryma/vim-multiple-cursors.git && \
+    git clone https://github.com/jistr/vim-nerdtree-tabs.git && \
+    git clone https://github.com/tpope/vim-sensible.git && \
+    git clone git://github.com/wavded/vim-stylus.git
 
-- mustache
+This command installs the following packages:
+
 - nerdtree
 - syntastic
 - vim-airline
@@ -55,6 +64,7 @@ Installing an add-on is as easy cloning it's repo in `~/.vim/bundle`:
 - vim-gitgutter
 - vim-javascript
 - vim-multiple-cursors
+- vim-mustache-handlebars
 - vim-nerdtree-tabs
 - vim-sensible
 - vim-stylus
