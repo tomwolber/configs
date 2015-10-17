@@ -77,10 +77,10 @@ This command will update all installed packages
 ## Git Config
 Git doesn't really need that much configuration, but there are a few tricks in .gitconfig to make it nicer.
 
-### Enable Colors
+#### Enable Colors
 Enabling colors makes things like `git status` a lot more readable. True story. 
 
-### Supercharge git grep 
+#### Supercharge git grep 
 Git's grep is awesome and ignores .git, which is nice. This setting sets all the nice flags and aliases it to `g`, ie `git g 'test'` instead of `grep --break --heading --line-number test`
 
 
