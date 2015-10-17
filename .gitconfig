@@ -28,7 +28,7 @@
 [difftool]
 	prompt = false
 [github]
-	user = tomwolber
+	user = foobar
 	token = token
 [grep]
 	linenumber=true
