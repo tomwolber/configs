@@ -4,7 +4,7 @@ Hopefully you will find these files helpful. Input from others is ***greatly*** 
 
 ##Download dotfiles
 
-Run this command to download dotfiles to your home directory. Please set your username and password in .gitconfig.
+Run this command to download dotfiles to your home directory. Set your username and password in .gitconfig.
 
     curl https://raw.githubusercontent.com/tomwolber/configs/master/.gitignore -o ~/.gitignore && \
     curl https://raw.githubusercontent.com/tomwolber/configs/master/.gitconfig -o ~/.gitconfig && \
@@ -75,21 +75,17 @@ This command will update all installed packages
     echo $'\n' && echo $'UPDATING PATHOGEN PACKAGES' && echo $'\n' && for i in ~/.vim/bundle/*; do basename $i && git -C $i pull && seq  -f "-" -s '' 80 && echo $'\n'; done
 
 ## Git Config
-Git doesn't really need that much configuration, but there are a few tricks to make it nicer.
+Git doesn't really need that much configuration, but there are a few tricks in .gitconfig to make it nicer.
 
-#### Enable Colors
+### Enable Colors
 Enabling colors makes things like `git status` a lot more readable. True story. 
 
-    git config --global color.ui true
-
-#### Supercharge git grep 
-Git's grep is awesome and ignores .git, which is nice. This command sets all the nice flags and aliases it to `g`, ie `git g 'test'`
-
-    git config --global alias.g "grep --break --heading --line-number"
+### Supercharge git grep 
+Git's grep is awesome and ignores .git, which is nice. This setting sets all the nice flags and aliases it to `g`, ie `git g 'test'` instead of `grep --break --heading --line-number test`
 
 
 #### Git Autocomplete (for OS X)
-I had been working on Linux VMs for so long that I forgot the autocomplete for Git didn't work out of the box on OS X. Installing this script from Github is an easy no-brainer.
+I had been working on Linux for so long that I forgot the autocomplete for Git didn't work out of the box on OS X. Installing this script from Github is an easy no-brainer.
 
     curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
     echo "source ~/.git-completion.bash" >> ~/.bash_profile
