@@ -87,5 +87,5 @@ Git's grep is awesome and ignores .git, which is nice. This setting sets all the
 #### Git Autocomplete (for OS X)
 I had been working on Linux for so long that I forgot the autocomplete for Git didn't work out of the box on OS X. Installing this script from Github is an easy no-brainer.
 
-    curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
     echo "source ~/.git-completion.bash" >> ~/.bash_profile
