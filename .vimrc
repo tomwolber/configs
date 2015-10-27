@@ -9,6 +9,7 @@ set cursorline
 set cursorcolumn
 set foldmethod=syntax
 set nofoldenable 
+set clipboard=unnamed
 
 "----COLORS----"
 set t_Co=256
@@ -45,6 +46,7 @@ let g:airline_section_warning = 0
 imap ii <Esc>
 map <Leader>n :NERDTreeTabsToggle<CR>
 map <Leader>m :NERDTreeFocus<CR>
+nnoremap <space> za
 
 "----NERDTREE----"
 autocmd StdinReadPre * let s:std_in=1
