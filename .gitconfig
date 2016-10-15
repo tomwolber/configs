@@ -8,7 +8,7 @@
 [push]
 	default = matching
 [color]
-	ui = true
+	ui = auto
 [color "branch"]
 	current = yellow bold
 	local = green bold
@@ -28,9 +28,14 @@
 [difftool]
 	prompt = false
 [github]
-	user = foobar
+	user = tomwolber
 	token = token
 [grep]
-	linenumber=true
+ linenumber=true
+ 
 [alias]
- 	g=grep --break --heading --line-number
+  g=grep --break --heading --line-number
+  st=-c color.status=always status -sb
+  lol=log --graph --decorate --oneline
+  lola=log --graph --decorate --oneline --all
+  ci=duet-commit -v
