@@ -24,11 +24,9 @@ highlight VertSplit ctermbg=DarkGray ctermfg=DarkGray
 set fillchars=""
 hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
 
-"----DISABLE ARROW KEYS----"
-map <Left> <Nop>
-map <Right> <Nop>
-map <Up> <Nop>
-map <Down> <Nop>
+
+map + <c-w>>
+map - <c-w><
 
 "----MISFIRES----"
 command W w
@@ -44,14 +42,53 @@ let g:airline_section_warning = 0
 
 "----MAPPINGS----"
 imap ii <Esc>
-map <Leader>n :NERDTreeTabsToggle<CR>
-map <Leader>m :NERDTreeFocus<CR>
+map <Leader>/ :NERDTreeTabsToggle<CR>
+map <Leader>. :NERDTreeFocus<CR>
+map <Leader>, :GitGutterLineHighlightsToggle<CR>
 nnoremap <space> za
 
 "----NERDTREE----"
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_autoclose=0
 
 "----MAKE PATHOGEN WORK----"
 execute pathogen#infect()
+
+"----MAKE CTRLP WORK----"
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"----REMOVE READONLY FROM GIT DIFFTOOL----"
+set noro
+
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+let g:syntastic_error_symbol = '❌'
+let g:syntastic_style_error_symbol = '⁉️'
+let g:syntastic_warning_symbol = '⚠️'
+let g:syntastic_style_warning_symbol = '💩'
+let g:syntastic_javascript_eslint_exe = 'npm run eslint --'
+
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ "Unknown"   : "?"
+    \ }
+
+
+highlight link SyntasticErrorSign SignColumn
+highlight link SyntasticWarningSign SignColumn
+highlight link SyntasticStyleErrorSign SignColumn
+highlight link SyntasticStyleWarningSign SignColumn
+
+set mouse=a
+
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=235
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=23
