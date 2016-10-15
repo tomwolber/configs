@@ -38,4 +38,3 @@
   st=-c color.status=always status -sb
   lol=log --graph --decorate --oneline
   lola=log --graph --decorate --oneline --all
-  ci=duet-commit -v
